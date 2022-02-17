@@ -1,0 +1,14 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Spring Boot-ReservaonlineApplication<reservaonline>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "console": "internalConsole",
+            "mainClass": "com.reservaonline.ReservaonlineApplication",
+            "projectName": "reservaonline",
+            "args": ""
+        }
+    ]
+}
