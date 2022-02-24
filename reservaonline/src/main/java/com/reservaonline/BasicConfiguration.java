@@ -43,7 +43,7 @@ public class BasicConfiguration extends WebSecurityConfigurerAdapter {
     @Override
     protected void configure(HttpSecurity http) throws Exception {
         http.csrf().disable().authorizeRequests()
-                .antMatchers("/administrativo/papeis/**").hasAuthority("gerente").and().formLogin()
+                .antMatchers("/administrativo/quartos/**").hasAuthority("gerente").and().formLogin()
                 .loginPage("/login").permitAll().and().logout()
                 .logoutRequestMatcher(new AntPathRequestMatcher("/logout")).logoutSuccessUrl("/administrativo").and()
                 .exceptionHandling().accessDeniedPage("/negado");

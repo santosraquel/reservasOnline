@@ -21,21 +21,20 @@ public class Quarto implements Serializable {
 	private Long id;
 
 	private String tipo;
-	private Double preco;
+	private String preco;
 	private String descricao;
 	private String status;
 	private String nomeImagem;
-	
 
 	public String getNomeImagem() {
-        return nomeImagem;
-    }
+		return nomeImagem;
+	}
 
-    public void setNomeImagem(String nomeImagem) {
-        this.nomeImagem = nomeImagem;
-    }
+	public void setNomeImagem(String nomeImagem) {
+		this.nomeImagem = nomeImagem;
+	}
 
-    public String getTipo() {
+	public String getTipo() {
 		return tipo;
 	}
 
@@ -59,11 +58,11 @@ public class Quarto implements Serializable {
 		this.descricao = descricao;
 	}
 
-	public Double getPreco() {
+	public String getPreco() {
 		return preco;
 	}
 
-	public void setPreco(Double preco) {
+	public void setPreco(String preco) {
 		this.preco = preco;
 	}
 
