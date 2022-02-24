@@ -1,0 +1,5 @@
+PASSOS:
+    - clonar o repositório do gitHub (git clone https://github.com/santosraquel/reservasOnline.git)
+Para abrir o projeto precisa:
+    - Abrir o XAMPP e startar o MySQL e o Apache
+    - Criar o banco de dados reservasonline no phpmyadmin
